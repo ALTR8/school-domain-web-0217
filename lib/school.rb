@@ -6,7 +6,7 @@ class School
     @name = name
     @roster = {}
   end
-
+#to pass tests
   def add_student(name, grade)
     @roster[grade] ||= []
     @roster[grade] << name
